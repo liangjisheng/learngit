@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-	printf("helo featureA");
+	printf("heo featureA");
 	return 0;
 }
