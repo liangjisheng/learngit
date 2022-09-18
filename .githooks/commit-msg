@@ -1,8 +1,5 @@
 #!/bin/sh
 
-MSG=`awk '{printf("%s",$0)}' $1`
-echo "$MSG"
-
 # 忽略merge request
 MERGE_MSG=`cat $1 | egrep '^Merge branch*'`
 
